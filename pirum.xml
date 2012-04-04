@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<server>
+  <name>zroger.github.com/pear</name>
+  <summary>zroger PEAR channel</summary>
+  <alias>zroger</alias>
+  <url>http://zroger.github.com/pear/</url>
+</server>
+
