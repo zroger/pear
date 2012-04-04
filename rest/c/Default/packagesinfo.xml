@@ -1,4 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <f xmlns="http://pear.php.net/dtd/rest.categorypackageinfo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.categorypackageinfo     http://pear.php.net/dtd/rest.categorypackageinfo.xsd">
+    <pi>
+        <p>
+            <n>SkypeHistory</n>
+            <c>zroger.github.com/pear</c>
+            <ca xlink:href="/rest/c/Default">Default</ca>
+            <l>MIT</l>
+            <s>A simple Skype call history viewer for OS/X.</s>
+            <d>A simple Skype call history viewer for OS/X.</d>
+            <r xlink:href="/rest/r/skypehistory" />
+        </p>
 
+        <a>
+            <r>
+                <v>0.0.1</v>
+                <s>alpha</s>
+            </r>
+
+        </a>
+
+        <deps>
+            <v>0.0.1</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"5.0.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.0";}s:7:"package";a:2:{i:0;a:2:{s:4:"name";s:19:"Console/CommandLine";s:7:"channel";s:12:"pear.php.net";}i:1;a:2:{s:4:"name";s:13:"Console/Table";s:7:"channel";s:12:"pear.php.net";}}}}</d>
+        </deps>
+
+    </pi>
 </f>

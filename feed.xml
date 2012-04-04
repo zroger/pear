@@ -1,12 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://zroger.github.com/pear</id>
-    <updated>2012-04-04T13:19:21-04:00</updated>
+    <updated>2012-04-04T14:11:41-04:00</updated>
     <title>zroger PEAR channel Latest Releases</title>
     <link href="http://zroger.github.com/pear/feed.xml" rel="self" />
     <author>
         <name>http://zroger.github.com/pear</name>
     </author>
 
-
+    <entry>
+        <title>SkypeHistory 0.0.1 (alpha)</title>
+        <link href="http://zroger.github.com/pear/get/SkypeHistory-0.0.1.tgz" />
+        <id>http://zroger.github.com/pear/get/SkypeHistory-0.0.1.tgz</id>
+        <author>
+            <name>zroger</name>
+        </author>
+        <updated>2012-04-04T18:10:01-04:00</updated>
+        <content>
+            
+Initial release.
+ 
+        </content>
+    </entry>
 </feed>
