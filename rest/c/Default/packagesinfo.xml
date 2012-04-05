@@ -21,7 +21,7 @@
 
         <deps>
             <v>0.0.1</v>
-            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"5.0.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.0";}s:7:"package";a:2:{i:0;a:2:{s:4:"name";s:19:"Console/CommandLine";s:7:"channel";s:12:"pear.php.net";}i:1;a:2:{s:4:"name";s:13:"Console/Table";s:7:"channel";s:12:"pear.php.net";}}}}</d>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"5.0.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.0";}s:7:"package";a:2:{i:0;a:2:{s:4:"name";s:19:"Console_CommandLine";s:7:"channel";s:12:"pear.php.net";}i:1;a:2:{s:4:"name";s:13:"Console_Table";s:7:"channel";s:12:"pear.php.net";}}}}</d>
         </deps>
 
     </pi>

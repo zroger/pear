@@ -10,8 +10,8 @@
   <email>code@zroger.com</email>
   <active>yes</active>
  </lead>
- <date>2012-04-04</date>
- <time>18:10:01</time>
+ <date>2012-04-05</date>
+ <time>15:48:31</time>
  <version>
   <release>0.0.1</release>
   <api>0.0.1</api>
@@ -28,7 +28,8 @@ Initial release.
   <dir baseinstalldir="SkypeHistory" name="/">
    <file baseinstalldir="SkypeHistory" md5sum="a5665d7c0890244b118495fb005d86da" name="lib/SkypeHistory/Call.php" role="php" />
    <file baseinstalldir="SkypeHistory" md5sum="8a8820d8992f0855799a06c766649f50" name="lib/SkypeHistory/Main.php" role="php" />
-   <file baseinstalldir="SkypeHistory" md5sum="e4b7b150b944475e79c412ba984a705e" name="pearfarm.spec" role="php" />
+   <file baseinstalldir="SkypeHistory" md5sum="e00b2eab3787fc1f9636a447787df494" name="package.xml" role="php" />
+   <file baseinstalldir="SkypeHistory" md5sum="7d3b96a282c93393936b04bea66ead51" name="pearfarm.spec" role="php" />
    <file baseinstalldir="SkypeHistory" md5sum="bb5811365e038d00e8bf84a8a04c0136" name="readme.md" role="php" />
    <file baseinstalldir="/" md5sum="0ea90f4e056318da4ab6c53e4ae87a4e" name="skype-history" role="script">
     <tasks:replace from="/usr/bin/env php" to="php_bin" type="pear-config" />
@@ -47,11 +48,11 @@ Initial release.
     <min>1.4.0</min>
    </pearinstaller>
    <package>
-    <name>Console/CommandLine</name>
+    <name>Console_CommandLine</name>
     <channel>pear.php.net</channel>
    </package>
    <package>
-    <name>Console/Table</name>
+    <name>Console_Table</name>
     <channel>pear.php.net</channel>
    </package>
   </required>
