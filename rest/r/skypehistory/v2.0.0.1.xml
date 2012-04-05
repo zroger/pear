@@ -10,11 +10,11 @@
     <m>zroger</m>
     <s>A simple Skype call history viewer for OS/X.</s>
     <d>A simple Skype call history viewer for OS/X.</d>
-    <da>2012-04-05 15:48:31</da>
+    <da>2012-04-05 16:06:09</da>
     <n>
 Initial release.
  </n>
-    <f>4327</f>
+    <f>4325</f>
     <g>http://zroger.github.com/pear/get/SkypeHistory-0.0.1</g>
     <x xlink:href="package.0.0.1.xml"/>
 </r>
