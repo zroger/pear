@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<package packagerversion="1.9.4" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0         http://pear.php.net/dtd/tasks-1.0.xsd http://pear.php.net/dtd/package-2.0 http://pear.php.net/dtd/package-2.0.xsd">
+ <name>SkypeHistory</name>
+ <channel>zroger.github.com/pear</channel>
+ <summary>A simple Skype call history viewer for OS/X.</summary>
+ <description>A simple Skype call history viewer for OS/X.</description>
+ <lead>
+  <name>Roger López</name>
+  <user>zroger</user>
+  <email>code@zroger.com</email>
+  <active>yes</active>
+ </lead>
+ <date>2012-04-27</date>
+ <time>14:22:44</time>
+ <version>
+  <release>1.0.0</release>
+  <api>1.0.0</api>
+ </version>
+ <stability>
+  <release>stable</release>
+  <api>stable</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/mit-license.html">MIT</license>
+ <notes>
+First stable release.
+ </notes>
+ <contents>
+  <dir baseinstalldir="SkypeHistory" name="/">
+   <file baseinstalldir="SkypeHistory" md5sum="a5665d7c0890244b118495fb005d86da" name="lib/SkypeHistory/Call.php" role="php" />
+   <file baseinstalldir="SkypeHistory" md5sum="8a8820d8992f0855799a06c766649f50" name="lib/SkypeHistory/Main.php" role="php" />
+   <file baseinstalldir="SkypeHistory" md5sum="1361d9689f7794d35c9815aee6ef370d" name=".gitignore" role="php" />
+   <file baseinstalldir="SkypeHistory" md5sum="945cd95b27fdf346dc8a936f6c55cbde" name="pearfarm.spec" role="php" />
+   <file baseinstalldir="SkypeHistory" md5sum="66396c474cea72cc18d201668d7e74db" name="readme.md" role="php" />
+   <file baseinstalldir="/" md5sum="0ea90f4e056318da4ab6c53e4ae87a4e" name="skype-history" role="script">
+    <tasks:replace from="/usr/bin/env php" to="php_bin" type="pear-config" />
+    <tasks:replace from="@php_bin@" to="php_bin" type="pear-config" />
+    <tasks:replace from="@bin_dir@" to="bin_dir" type="pear-config" />
+    <tasks:replace from="@pear_directory@" to="php_dir" type="pear-config" />
+   </file>
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.0.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.0</min>
+   </pearinstaller>
+   <package>
+    <name>Console_CommandLine</name>
+    <channel>pear.php.net</channel>
+   </package>
+   <package>
+    <name>Console_Table</name>
+    <channel>pear.php.net</channel>
+   </package>
+  </required>
+ </dependencies>
+ <phprelease>
+  <filelist>
+   <install as="skype-history" name="skype-history" />
+  </filelist>
+ </phprelease>
+</package>

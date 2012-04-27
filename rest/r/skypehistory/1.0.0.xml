@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
+    <p xlink:href="/rest/p/skypehistory">SkypeHistory</p>
+    <c>zroger.github.com/pear</c>
+    <v>1.0.0</v>
+    <st>stable</st>
+    <l>MIT</l>
+    <m>zroger</m>
+    <s>A simple Skype call history viewer for OS/X.</s>
+    <d>A simple Skype call history viewer for OS/X.</d>
+    <da>2012-04-27 14:22:44</da>
+    <n>
+First stable release.
+ </n>
+    <f>4316</f>
+    <g>http://zroger.github.com/pear/get/SkypeHistory-1.0.0</g>
+    <x xlink:href="package.1.0.0.xml"/>
+</r>
